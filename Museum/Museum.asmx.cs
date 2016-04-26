@@ -111,6 +111,7 @@ namespace Museum
 
                 ListOfPart.Add(info);
             }
+
             con.Close();
 
             JavaScriptSerializer ser = new JavaScriptSerializer();
